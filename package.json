@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@anthonysilvanobianco/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArrayEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/AnthonyBianco/lotide1.git"
   },
-  "author": "",
+  "author": { "name" : "Anthony Bianco"
+    , "email" : "anthonysilvanobianco@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnthonyBianco/lotide1/issues"
