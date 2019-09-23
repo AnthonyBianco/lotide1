@@ -1,5 +1,14 @@
 const assertEqual = require('../assertEqual');
 const tail = require('../tail');
+const assert = require('chai').assert;
+
+
+describe("#tail", () => {
+  it("return labs when given yo yo yo, lighthouse, labs", () => {
+    assert.strictEqual(assertEqual(["Yo Yo", "Lighthouse", "Labs"].length, 3));
+});
+});
+
 
 // Test Case: Check  the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];
