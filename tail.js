@@ -1,8 +1,6 @@
-let parameter2 = [];
+
 let tail = function(parameter) {
-  for (let i = 0; i < parameter.length; i++) {
-    parameter2.push(parameter[i]);
-  }
+ return parameter.slice(1); 
 };
 
 module.exports = tail; 
